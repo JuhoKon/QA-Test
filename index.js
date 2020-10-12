@@ -1,3 +1,8 @@
-const sum = require("./functions/sum");
-console.log("Hello World!");
-console.log("5 + 4 =", sum(5, 4));
+const { sum } = require("./functions/math/math");
+
+function main() {
+  console.log("Hello World!");
+  console.log("5 + 4 =", sum(5, 4));
+}
+
+main();
