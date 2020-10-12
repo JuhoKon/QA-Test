@@ -1,7 +1,7 @@
 function sum(a, b) {
   return a + b;
 }
-function SUBSTRACTION(a, b) {
+function substraction(a, b) {
   return a - b;
 }
-module.exports = { sum, SUBSTRACTION };
+module.exports = { sum, substraction };
