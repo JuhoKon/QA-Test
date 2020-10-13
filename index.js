@@ -1,8 +1,13 @@
-const { sum } = require("./functions/math/math");
+const { sum, substraction, division } = require("./functions/math/math");
 
+function handleoperations(a, b) {
+  console.log(`${a} + ${b} = `, sum(a, b));
+  console.log(`${a} - ${b} = `, substraction(a, b));
+  console.log(`${a} / ${b} = `, division(a, b));
+}
 function main() {
   console.log("Hello World!");
-  console.log("5 + 4 =", sum(5, 4));
+  handleoperations(5, 4);
 }
 
 main();
