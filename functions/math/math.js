@@ -4,4 +4,7 @@ function sum(a, b) {
 function substraction(a, b) {
   return a - b;
 }
-module.exports = { sum, substraction };
+function division(a, b) {
+  return a / b;
+}
+module.exports = { sum, substraction, division };
